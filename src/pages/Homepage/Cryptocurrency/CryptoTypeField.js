@@ -122,7 +122,7 @@ export const CryptoTypeField = ({
                         sx={{
                           width: '110px',
                           background: cryptoType === item.type ? palette.common.white : '',
-                          border: '2px solid #3C2C2D',
+                          border: '2px solid #943537',
                           borderRadius: '4px',
                           display: 'flex',
                           justifyContent: 'center',
@@ -138,10 +138,10 @@ export const CryptoTypeField = ({
                         />
                         <Box display={'flex'} flexDirection={'column'} alignItems={'center'}>
                           <Typography variant="h4" sx={{
-                            color: cryptoType === item.type ? palette.common.black : '#8C7662',
+                            color: cryptoType === item.type ? palette.common.black : '#cc6263',
                           }}>{item.name}</Typography>
                           <Typography variant="h5" sx={{
-                            color: '#8C7662 !important',
+                            color: '#cc6263 !important',
                           }}>{item.token}</Typography>
                         </Box>
                       </Button>
@@ -162,7 +162,7 @@ export const CryptoTypeField = ({
                         sx={{
                           width: '110px',
                           background: cryptoType === item.type ? palette.common.white : '',
-                          border: '2px solid #3C2C2D',
+                          border: '2px solid #943537',
                           borderRadius: '4px',
                           display: 'flex',
                           justifyContent: 'center',
@@ -178,10 +178,10 @@ export const CryptoTypeField = ({
                         />
                         <Box display={'flex'} flexDirection={'column'} alignItems={'center'}>
                           <Typography variant="h4" sx={{
-                            color: cryptoType === item.type ? palette.common.black : '#8C7662',
+                            color: cryptoType === item.type ? palette.common.black : '#cc6263',
                           }}>{item.name}</Typography>
                           <Typography variant="h5" sx={{
-                            color: '#8C7662 !important',
+                            color: '#cc6263 !important',
                           }}>{item.token}</Typography>
                         </Box>
                       </Button>
@@ -201,7 +201,7 @@ export const CryptoTypeField = ({
                         sx={{
                           width: '110px',
                           background: cryptoType === item.type ? palette.common.white : '',
-                          border: '2px solid #3C2C2D',
+                          border: '2px solid #943537',
                           borderRadius: '4px',
                           display: 'flex',
                           justifyContent: 'center',
@@ -217,10 +217,10 @@ export const CryptoTypeField = ({
                         />
                         <Box display={'flex'} flexDirection={'column'} alignItems={'center'}>
                           <Typography variant="h4" sx={{
-                            color: cryptoType === item.type ? palette.common.black : '#8C7662',
+                            color: cryptoType === item.type ? palette.common.black : '#cc6263',
                           }}>{item.name}</Typography>
                           <Typography variant="h5" sx={{
-                            color: '#8C7662 !important',
+                            color: '#cc6263 !important',
                           }}>{item.token}</Typography>
                         </Box>
                       </Button>
@@ -259,7 +259,7 @@ export const CryptoTypeField = ({
                                   color: palette.common.black,
                                 }}>{item.name}</Typography>
                                 <Typography variant="h5" sx={{
-                                  color: '#8C7662 !important',
+                                  color: '#cc6263 !important',
                                 }}>{item.token}</Typography>
                               </Box>
                             </Box>
@@ -282,7 +282,7 @@ export const CryptoTypeField = ({
                                   color: palette.common.black,
                                 }}>{item.name}</Typography>
                                 <Typography variant="h5" sx={{
-                                  color: '#8C7662 !important',
+                                  color: '#cc6263 !important',
                                 }}>{item.token}</Typography>
                               </Box>
                             </Box>
@@ -305,7 +305,7 @@ export const CryptoTypeField = ({
                                   color: palette.common.black,
                                 }}>{item.name}</Typography>
                                 <Typography variant="h5" sx={{
-                                  color: '#8C7662 !important',
+                                  color: '#cc6263 !important',
                                 }}>{item.token}</Typography>
                               </Box>
                             </Box>

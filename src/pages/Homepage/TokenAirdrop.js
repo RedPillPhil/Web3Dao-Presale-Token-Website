@@ -27,7 +27,7 @@ export const TokenAirdrop = () => {
         lineHeight: { md: '96px', sm: '68px', xs: '48px'},
         textAlign: { sm: 'center', xs: 'left'} 
       }}>
-        <span style={{ color: matches? '#F29B4C' : '#FE6768' }}>$ART</span> 50 billion token airdrop
+        <span style={{ color: matches? '#CC6258' : '#CC6260' }}>$ART</span> 50 billion token airdrop
       </Typography>
       <Typography px={{ sm: 4, xs: 0 }} variant="h4" sx={{
         textAlign: { sm: 'center', xs: 'left'},
@@ -53,7 +53,7 @@ export const TokenAirdrop = () => {
               }}>
                 <Typography mt={2} variant="h2" sx={{
                   width: 'fit-content',
-                  background: '#8C7662',
+                  background: '#cc6263',
                   borderRadius: '4px',
                   padding: '5px 20px',
                   color: '#F7FBFA',

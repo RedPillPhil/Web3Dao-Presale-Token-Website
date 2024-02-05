@@ -29,7 +29,7 @@ export const DurationField = ({ timerValue }) => {
               sx={{
                 width: { sm: '158px', xs: '140px' },
                 height: '96px',
-                background: '#3C2C2D',
+                background: '#943537',
                 borderRadius: '4px',
               }}
             >
@@ -48,7 +48,7 @@ export const DurationField = ({ timerValue }) => {
               </Typography>
               <Typography sx={{
                 fontSize: 16,
-                color: '#F8CAA0',
+                color: '#000001',
               }}>{item.time}</Typography>
             </Box>
           ))

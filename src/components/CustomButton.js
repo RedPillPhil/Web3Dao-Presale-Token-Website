@@ -5,7 +5,7 @@ export const CustomButton = ({ title, styles, showMore, handleClick }) => {
     <Button variant='h5'
       onClick={handleClick}
       sx={{
-        background: '#3C2C2D',
+        background: '#943537',
         borderRadius: '4px',
         padding: '12px 32px',
         fontFamily: 'Inter',
@@ -28,7 +28,7 @@ export const CustomButton = ({ title, styles, showMore, handleClick }) => {
           background: '#E1E2E2',
           borderRadius: '12px',
           padding: '2px 8px',
-          color: '#3C2C2D',
+          color: '#943537',
         }}>{showMore}</Typography>
       }
     </Button>

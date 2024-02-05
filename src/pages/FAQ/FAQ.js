@@ -37,7 +37,7 @@ export const FAQ = () => {
     }}>
       <Grid container>
         <Grid item sm={6} xs={12} sx={{
-          background: '#F8CAA0',
+          background: '#000001',
           position: 'relative',
           height: { sm: 'initial', xs: '550px' }
         }}>
@@ -49,7 +49,7 @@ export const FAQ = () => {
             <Button sx={{
               width: { sm: '192px', xs: '120px'},
               height: { sm: '72px', xs: '35px'},            
-              background: '#FE6768',
+              background: '#CC6260',
               borderRadius: { sm: '48px', xs: '30px'},
               marginTop: { sm: '20px', xs: '12px'},
               '&:hover': {

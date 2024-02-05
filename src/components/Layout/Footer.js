@@ -63,7 +63,7 @@ export const Footer = () => {
                 >
                   <Typography variant="h5" sx={{
                     display: key==='social' && { sm: 'block', xs: 'none' },
-                    color: '#fe6768 !important',
+                    color: '#CC6260 !important',
                     textTransform: 'uppercase',
                   }}>
                     {key}
@@ -142,14 +142,14 @@ export const Footer = () => {
             <Button variant='h5'
               onClick={()=> setCookiStatus(true)}
               sx={{
-                border: '2px solid #3C2C2D',
+                border: '2px solid #943537',
                 borderRadius: '4px',
                 padding: { sm: '8px 20px', xs: '4px 16px'},
-                color: '#3C2C2D !important',
+                color: '#943537 !important',
                 fontWeight: 700,
                 fontSize: { sm: 14, xs: 12 },
                 '&:hover': {
-                  background: '#3C2C2D',
+                  background: '#943537',
                   color: 'white !important',
                 }
               }}

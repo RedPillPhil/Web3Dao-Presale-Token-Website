@@ -90,7 +90,7 @@ export const WalletConnectModal = ({
             flexDirection={'column'}
             justifyContent={'space-between'}
             sx={{
-              background: '#F8CAA0',
+              background: '#000001',
               position: 'relative',
             }}
           >
@@ -138,7 +138,7 @@ export const WalletConnectModal = ({
                 </Button>
               </Box>
               <Typography variant='h4' mt={4} sx={{
-                color: '#8C7662'
+                color: '#cc6263'
               }}>
                 Choose how you want to connect. There are several wallet providers.
               </Typography>

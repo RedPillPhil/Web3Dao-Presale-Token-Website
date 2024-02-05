@@ -3,7 +3,7 @@ import { createTheme } from '@mui/material/styles'
 const createTypographySystem = () => {
   return {
     h1: {
-      color: '#3C2C2D',
+      color: '#943537',
       fontWeight: 700,
     },
     h2: {

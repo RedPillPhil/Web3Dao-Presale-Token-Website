@@ -6,7 +6,7 @@ import { palette } from "../../../themes"
 export const RaisedField = ({ raisedValue }) => {
   return (
     <Box p={3} mt={6} sx={{
-      background: '#724c29',
+      background: '#CC6264',
       borderRadius: '4px',
     }}>
       <Typography variant="h5" sx={{

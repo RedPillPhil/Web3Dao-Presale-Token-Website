@@ -51,7 +51,7 @@ export const Roadmap = () => {
       <Grid container spacing={2}>
         <Grid item md={6} xs={12} sx={{
           position: 'relative', 
-          background: '#F8CAA0',
+          background: '#000001',
           paddingTop: { sm: '120px !important', xs: '40px !important' },
         }}>
           <Typography variant="h1" px={{ sm: 20, xs: 4 }} mb={{ sm: 6, xs: 4}} sx={{
@@ -63,7 +63,7 @@ export const Roadmap = () => {
           <Button sx={{
             width: { sm: '192px', xs: '120px'},
             height: { sm: '72px', xs: '45px'},            
-            background: '#FE6768',
+            background: '#CC6260',
             borderRadius: { sm: '48px', xs: '30px'},
             marginLeft: { sm: '80px', xs: '16px'},
             '&:hover': {
